@@ -1,3 +1,5 @@
 class A {
-    String value = "A";
+    private String value = "A";
+    
+    public String getValue(){return this.value;}
 } 
